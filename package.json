@@ -1,0 +1,28 @@
+{
+  "name": "basic_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelchiti/basic_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelchiti/basic_api/issues"
+  },
+  "homepage": "https://github.com/rafaelchiti/basic_api#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "express-jwt": "^3.0.1",
+    "jsonwebtoken": "^5.0.5",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1"
+  }
+}
