@@ -6,7 +6,7 @@ var bodyParser = require("body-parser");
 
 var app = module.exports = express();
 
-app.use(expressJwt({secret: "some-secret", skip: ["/authenticate"]}));
+app.use(expressJwt({secret: "some-secret"}).unless({path: ["/api/authenticate"]}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
